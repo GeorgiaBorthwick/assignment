@@ -1,45 +1,110 @@
-
-.navigation {
-    height:90px;
-    background-color: #00d9ff;
+@media (max-width: 700px) {
+  .navigation {
+    height: 30px;
+    background-color: #dde040;
     text-align: center;
-    line-height: 100px;
-    font-size: 30px;
-    position: fixed; 
-    top:0;
-    left:0;
+    position: fixed;
+    top: 0;
+    left: 0;
     right: 0;
-}
+  }
 
-.navigation a {
-    margin-right: 30px;
-    color:#fff;
+  .navigation a {
+    margin-right: 20px;
+    color: #fff;
     text-decoration: none;
     transition-duration: 500ms;
     border-bottom: 1px solid transparent;
-}
+  }
 
-.navigation li {
+  .navigation li {
     display: inline-block;
     margin: 0 10px;
+  }
+}
+
+@media (min-width: 700px) {
+  .navigation {
+    height: 90px;
+    background-color: #dde040;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .navigation a {
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 500ms;
+    border-bottom: 1px solid transparent;
+  }
+
+  .navigation li {
+    display: inline-block;
+    margin: 0 10px;
+  }
 }
 
 .navigation a:hover {
-    color:#fff;
-    text-decoration: none;
-    border-bottom: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 }
 
-
 .map {
-    width:100%;
-    height:300px;
-    margin-bottom: 30px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
 }
 
 .my-video {
-    width:100%;
-    height:300px;
-    margin-bottom: 30px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30px;
 }
 
+.label,
+text-area {
+  display: block;
+  margin: 20px 0 5px 0;
+}
+
+label {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  height: 30px;
+  margin-top: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  text-transform: uppercase;
+  padding: 10px 0 0 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
