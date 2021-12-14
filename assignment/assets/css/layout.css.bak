@@ -1,0 +1,42 @@
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 10px;
+}
+
+
+
+.col-6 {
+    width:50%;
+    float:left;
+    padding:5px;
+    margin-bottom: 30px;
+}
+
+.col-1 {
+    width:100%;
+    padding:5px;
+    margin-bottom: 30px;
+}
+
+.col-3 {
+    display: block;
+    width:33.33%;
+    float:left;
+    padding:5px;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    height: 30px;
+    background-color: #dde040;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
